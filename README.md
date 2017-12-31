@@ -1,12 +1,14 @@
 # Sane-qt
-Simple Sane GUI made with pyqt !
+	Simple Sane GUI made with pyqt !
 
-Hope you find it useful !
+	Hope you find it useful !
 
 #Howto
 
-Python start.py
+	Python start.py
 
 #Dependecies
-Sane
-PyQt4
+
+	Sane
+
+	PyQt4
