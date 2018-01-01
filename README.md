@@ -5,14 +5,16 @@
 
 #Howto
 
-	Python start.py
+	Python sane-qt_start.py
 
 #Dependecies
 
 	Sane
+	
+	python
 
 	PyQt4
 
 #AUR repository
 
-	https://aur.archlinux.org/packages/sane-qt/
+	https://aur.archlinux.org/packages/sane-qt-git/
