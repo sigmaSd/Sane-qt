@@ -12,3 +12,7 @@
 	Sane
 
 	PyQt4
+
+#AUR repository
+
+	https://aur.archlinux.org/packages/sane-qt/
