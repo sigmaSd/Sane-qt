@@ -9,11 +9,11 @@
 
 #Dependecies
 
-	Sane
+	sane
 	
 	python
 
-	PyQt4
+	python-pyqt4
 
 #AUR repository
 
