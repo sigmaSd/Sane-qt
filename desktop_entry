@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=sane-qt
+Comment=Scan with ease 
+Icon=/usr/share/sane-qt/scanner.png
+Exec=/usr/bin/sane-qt
+Terminal=false
+Categories=Graphics
