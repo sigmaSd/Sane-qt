@@ -13,7 +13,7 @@
 	
 	python
 
-	python-pyqt4
+	python-pyqt5
 
 #AUR repository
 
