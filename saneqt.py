@@ -1,63 +1,67 @@
-from PyQt4 import QtCore, QtGui
+# -*- coding: utf-8 -*-
 
-try:
-    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
-        return s
+# Form implementation generated from reading ui file 'interface.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
 
-try:
-    _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig)
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_StackedWidget(object):
     def setupUi(self, StackedWidget):
-        StackedWidget.setObjectName(_fromUtf8("StackedWidget"))
+        StackedWidget.setObjectName("StackedWidget")
         StackedWidget.resize(400, 300)
-        self.page = QtGui.QWidget()
-        self.page.setObjectName(_fromUtf8("page"))
-        self.listWidget = QtGui.QListWidget(self.page)
-        self.listWidget.setGeometry(QtCore.QRect(140, 20, 256, 271))
-        self.listWidget.setObjectName(_fromUtf8("listWidget"))
-        self.label = QtGui.QLabel(self.page)
-        self.label.setGeometry(QtCore.QRect(6, 30, 111, 41))
-        self.label.setObjectName(_fromUtf8("label"))
-        self.pushButton = QtGui.QPushButton(self.page)
-        self.pushButton.setGeometry(QtCore.QRect(0, 70, 131, 37))
-        self.pushButton.setObjectName(_fromUtf8("pushButton"))
+        self.page = QtWidgets.QWidget()
+        self.page.setObjectName("page")
+        self.listWidget = QtWidgets.QListWidget(self.page)
+        self.listWidget.setGeometry(QtCore.QRect(210, 40, 291, 231))
+        self.listWidget.setObjectName("listWidget")
+        self.pushButton = QtWidgets.QPushButton(self.page)
+        self.pushButton.setGeometry(QtCore.QRect(20, 60, 131, 37))
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.page)
+        self.pushButton_2.setGeometry(QtCore.QRect(30, 170, 107, 37))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.label_2 = QtWidgets.QLabel(self.page)
+        self.label_2.setGeometry(QtCore.QRect(150, 30, 221, 231))
+        self.label_2.setObjectName("label_2")
         StackedWidget.addWidget(self.page)
-        self.page1 = QtGui.QWidget()
-        self.page1.setObjectName(_fromUtf8("page1"))
-        self.graphicsView = QtGui.QLabel(self.page1)
-        self.graphicsView.setGeometry(QtCore.QRect(140, 20, 256, 271))
-        self.graphicsView.setObjectName(_fromUtf8("graphicsView"))
-        self.pushButton_2 = QtGui.QPushButton(self.page1)
-        self.pushButton_2.setGeometry(QtCore.QRect(20, 90, 107, 37))
-        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
-        self.pushButton_3 = QtGui.QPushButton(self.page1)
-        self.pushButton_3.setGeometry(QtCore.QRect(0, 40, 131, 37))
-        self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
-        self.pushButton_4 = QtGui.QPushButton(self.page1)
-        self.pushButton_4.setGeometry(QtCore.QRect(10, 10, 110, 31))
-        self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
-        self.pushButton_4.setText("Choose name")
-        self.pushButton_5 = QtGui.QPushButton(self.page1)
-        self.pushButton_5.setGeometry(QtCore.QRect(10, 230, 107, 37))
-        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
-        self.pushButton_5.setText("Devices List")
-        StackedWidget.addWidget(self.page1)
+        self.page_2 = QtWidgets.QWidget()
+        self.page_2.setObjectName("page_2")
+        self.label = QtWidgets.QLabel(self.page_2)
+        self.label.setGeometry(QtCore.QRect(200, 40, 171, 231))
+        self.label.setText("")
+        self.label.setObjectName("label")
+        self.pushButton_3 = QtWidgets.QPushButton(self.page_2)
+        self.pushButton_3.setGeometry(QtCore.QRect(30, 100, 107, 37))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.page_2)
+        self.pushButton_4.setGeometry(QtCore.QRect(30, 200, 107, 37))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(self.page_2)
+        self.pushButton_5.setGeometry(QtCore.QRect(20, 60, 131, 37))
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_6 = QtWidgets.QPushButton(self.page_2)
+        self.pushButton_6.setGeometry(QtCore.QRect(30, 20, 107, 37))
+        self.pushButton_6.setObjectName("pushButton_6")
+        StackedWidget.addWidget(self.page_2)
 
         self.retranslateUi(StackedWidget)
         StackedWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(StackedWidget)
 
     def retranslateUi(self, StackedWidget):
-        StackedWidget.setWindowTitle(_translate("Saneqt", "Saneqt", None))
-        self.label.setText(_translate("StackedWidget", "Devices Found :", None))
-        self.pushButton.setText(_translate("StackedWidget", "Confirm Selected", None))
-        self.pushButton_2.setText(_translate("StackedWidget", "Scan", None))
-        self.pushButton_3.setText(_translate("StackedWidget", "Choose dir", None))
+        _translate = QtCore.QCoreApplication.translate
+        StackedWidget.setWindowTitle(_translate("sane-qt", "sane-qt"))
+        self.pushButton.setText(_translate("StackedWidget", "confirm selected"))
+        self.pushButton_2.setText(_translate("StackedWidget", "check again"))
+        self.pushButton_3.setText(_translate("StackedWidget", "scan"))
+        self.pushButton_4.setText(_translate("StackedWidget", "Devices List"))
+        self.pushButton_5.setText(_translate("StackedWidget", "choose directory"))
+        self.pushButton_6.setText(_translate("StackedWidget", "choose name"))
+        self.label_2.setText(_translate("StackedWidget",
+                                        "<html><head/><body><p align=\"center\"><span style=\" font-size:12pt; font-style:italic; color:#ff0000;\">No devices found.</span></p><p align=\"center\"><span style=\" font-size:12pt; font-style:italic; color:#ff0000;\">Press check again to rescan .</span></p></body></html>"))
+
+
+
