@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
-from interface import Ui_StackedWidget
+from saneqt import Ui_StackedWidget
 from subprocess import getoutput
 from subprocess import run
 from pathlib import  Path
