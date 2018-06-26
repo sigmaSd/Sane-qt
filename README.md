@@ -15,6 +15,3 @@
 
 	python-pyqt5
 
-#AUR repository
-
-	https://aur.archlinux.org/packages/sane-qt-git/
