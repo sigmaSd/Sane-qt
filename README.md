@@ -3,11 +3,11 @@
 
 	Hope you find it useful !
 
-#Howto
+# Howto
 
 	Python sane-qt_start.py
 
-#Dependecies
+# Dependecies
 
 	sane
 	
